@@ -38,6 +38,7 @@ class DetailViewController: UIViewController {
                 // 这里是设置图片圆角 然并卵
                 imageView.layer.cornerRadius = self.contactImageView.frame.size.width / 2
                 imageView.clipsToBounds = true
+                            
                 // 通讯录的图片 存在系统文件是以data的形式存储数据
                 imageView.image = UIImage(data: contact.imageData!)
             }else{
